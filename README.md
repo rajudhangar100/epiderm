@@ -44,3 +44,30 @@ pip install opencv-python
 pip install matplotlib
 pip install numpy
 pip install Pillow
+
+Running the Application
+Clone this repository:
+
+git clone https://github.com/rajudhangar100/epiderm
+
+Place your trained .h5 model inside the models/ folder.
+
+Run the main script:
+
+python3 skin_gui.py
+The application will launch in fullscreen mode. Use the GUI to:
+
+Capture an image of the skin.
+
+Classify using the embedded CNN model.
+
+Visualize results with Grad-CAM.
+
+Navigate using Home, About, and Discard options.
+
+Privacy & Security
+This system runs completely offline — no patient data is uploaded or stored externally.
+
+All captured images are stored temporarily and can be discarded easily from the GUI.
+
+Ideal for deployment in remote clinics and rural healthcare setups where data privacy and offline operation are crucial.
